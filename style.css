@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: relative;
+    color: #d0d3d4;
+    background-color: #1b365d;
+    height: 16rem;
+}
+
+header .profile-pic-and-profile-name {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    position: absolute;
+    left: 1.4rem;
+    top: 40%;
+}
+
+/* header .profile-pic-and-profile-name h1 {
+} */
+
+header .profile-pic-and-profile-name img {
+    width: 256px;
+    height: 256px;
+    border-radius: 50%;
+}
+
+header .email-whatsapp-linkedin-github {
+    position: absolute;
+    right: 10px;
+    top: 25%;
+    width: fit-content;
+    padding: 1.5rem;
+    border: 1px solid #d0d3d4
+}
+
+header .email-whatsapp-linkedin-github li a{
+    color: #d0d3d4;
+}
+
+body, input, textarea, select, button {
+    font: 400 1rem 'Times New Roman', Verdana, Arial, Tahoma, Helvetica, Calibri;
+}
+
+button {
+    cursor: pointer;
+}
+
+@media (max-width: 1080px) {
+    html {
+        font-size: 93.75%;
+    }
+}
+
+@media (max-width: 720px) {
+    html {
+        font-size: 87.5%;
+    }
+}
